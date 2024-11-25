@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Shop - Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Products</h1>
+        <div class="product-list">
+            <div class="product" data-id="1" data-name="Eco Bag" data-price="10">
+                <h2>Eco Bag</h2>
+                <p>Price: $10</p>
+                <button onclick="addToCart(1, 'Eco Bag', 10)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2" data-name="Reusable Bottle" data-price="15">
+                <h2>Reusable Bottle</h2>
+                <p>Price: $15</p>
+                <button onclick="addToCart(2, 'Reusable Bottle', 15)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Eco-Friendly Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
